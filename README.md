@@ -223,7 +223,7 @@ Methods and variables that are intended to be "private" should begin with a lead
 _privateMethod: ->
 ```
 
-We don't have a convention for "protected" meaning that protected methods should be public. Private methods are not intended to be overridden but are exposed for testing.
+We don't have a convention for "protected" methods meaning that protected methods should be public. Private methods are not intended to be overridden but are exposed for unit testing purposes.
 
 <a name="functions"/>
 
