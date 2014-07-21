@@ -146,7 +146,9 @@ Additional recommendations:
 
 ## Comments
 
-If modifying code that is described by an existing comment, update the comment such that it accurately reflects the new code. (Ideally, improve the code to obviate the need for the comment, and delete the comment entirely.)
+If modifying code that is described by an existing comment, update the comment such that it accurately reflects the new code.
+
+Aim to avoid obvious comments that run between lines of code, prever a comment that discribes a method or a comment that describes a block of code instead of describing each line in turn.
 
 The first word of the comment should be capitalized, unless the first word is an identifier that begins with a lower-case letter.
 
@@ -157,8 +159,6 @@ If a comment is short, the period at the end can be omitted.
 ### Block Comments
 
 Block comments apply to the block of code that follows them.
-
-Each line of a block comment starts with a `#` and a single space, and should be indented at the same level of the code that it describes.
 
 Paragraphs inside of block comments are separated by a line containing a single `#`.
 
